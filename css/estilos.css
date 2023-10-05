@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabeza{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 204, 255);
+    justify-content: space-between;
+    height: 120px;
+    }
+    
+.piedepagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+}
+.footer{
+    color: red;
+    font-size: 20px;
+}
+.messifeliz{
+    font-size: 19px;
+    color: red;
+}
+.messifeliz2{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+
+
+.primercuadro{
+    display: flex;
+    margin: 50px 50px 50px 50px;
+
+}
+.primerafoto{
+    display: flex;
+    
+
+}
+.divpadre{
+    display: flex;
+    gap: 20px;
+}
+.argentinaecu{
+    padding-left: 50px;
+    
+}
+.arvsecu{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+.arvsbo{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+.invsat{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+.messi{
+    display: grid;
+    place-items: center;
+    padding-left: 20px;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+}
+nav{
+    text-align: right;
+    float: right;
+    width: 50%;
+
+}
+a{
+    text-decoration: none;
+   
+}
+.h2index{
+    text-align: center;
+     font-style: italic;
+     padding-top: 10px;
+     font-size: 30px;
+     background-color: skyblue;
+    color: white;
+}
+.h3index{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.logo{
+    width: 250px;
+    height: 100%;
+}
+.champ{
+    justify-items: center;
+    display: grid;
+}
+
+    
+
+.messicha{
+    align-items: center;
+    width: 600px;
+    height: 700px;
+    justify-items: center;
+
+}
+.padre2{
+    padding: 50px 400px 50px 420px;
+    background-image: url(../img/bandera.jpeg);
+    background-size: 100%;
+}
+
+.sele{
+    width: 350px;
+    height: 400px;
+    float: right;
+    padding-left: 10px;
+
+}
+.text{
+    padding: 0px 30px 30px 30px;
+
+    
+}
+
+
+.text2{
+     align-items: flex-start;
+     font-size: 19px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+.text3{
+    align-items: flex-start;
+    font-size: 19px;
+    font-style: oblique;
+    color: skyblue; 
+}
+.text31{
+    align-items: flex-start;
+    font-size: 19px;
+    font-style: oblique;
+    color: white;
+}
+.text32{
+    align-items: flex-start;
+    font-size: 19px;
+    font-style: oblique;
+    color: skyblue; 
+}
+.h1index{
+
+text-align: center;
+     font-style: italic;
+     padding-top: 10px;
+     font-size: 30px;
+}
+.sele2{
+    width: 350px;
+    height: 500px;
+    float: left;
+}
+.padre3{
+    padding: 110px 220px 50px 220px;
+    background-color: black;
+
+}
+.padrerredes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.messicomiendo{
+    display: flex;
+    width: 300px;
+    height: 300px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+
+}
+
+.divp{
+    display: flex;
+    flex-direction: row;
+}
+.divp2{
+    display: flex;
+    flex-direction: row;
+
+}
+.ig{
+    color: red;
+    font-size: 40px;
+
+}
+.fc{
+    color: blue;
+    font-size: 40px;
+}
+.tw{
+    color: skyblue;
+    font-size: 40px;
+}
+.cortes{
+    width: 200px;
+    height: 200px;
+}
+.article1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border: solid 5px red;
+    border-radius: 10px;
+
+}
+.bio1{
+    justify-items: center;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 50px 110px 0px 110px ;
+
+
+}
+.messichiquito{
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+}
+.texbio{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.bio2{
+    
+    display: flex;
+
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 50px 110px 0px 110px ;
+}
+.messisele{
+    width: 400px;
+    height: 600px;
+}
+.texbio2{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bio3{
+    justify-items: center;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 50px 110px 0px 110px 
+}
+.texbio3{
+    font-size: 19px;
+    background-color: azure;
+}
+
+
+
+
